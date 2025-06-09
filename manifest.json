@@ -1,16 +1,26 @@
 {
   "name": "Reloj de Mesa",
   "short_name": "Reloj",
+  "id": "/",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "orientation": "landscape",
+  "description": "Un reloj digital estilo LED para usar en tablet como reloj de mesa.",
   "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
     {
       "src": "icon.png",
       "type": "image/png",
       "sizes": "192x192"
     }
-  ]
+  ],
+  "launch_handler": {
+    "client_mode": "auto"
+  }
 }
