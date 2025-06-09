@@ -13,7 +13,7 @@ setInterval(updateClock, 1000);
 updateClock();
 
 // Obtener temperatura desde OpenWeatherMap
-const API_KEY = 'c44eef49727783acad75183f7539505f';
+const API_KEY = '206723204317738fb197354df1f321c5';
 const LAT = '-34.6037'; // Buenos Aires
 const LON = '-58.3816';
 
