@@ -13,11 +13,15 @@ body {
 .clock-container {
   text-align: center;
 }
+@font-face {
+  font-family: 'DS-Digital';
+  src: url('fonts/DS-DIGI.TTF') format('truetype');
+}
 
 .time {
-  font-size: 10vw;
-  letter-spacing: 0.1em;
+  font-family: 'DS-Digital', monospace;
 }
+
 
 .info {
   margin-top: 1em;
